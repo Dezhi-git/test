@@ -1,0 +1,17 @@
+{
+    "secret": "123456",
+    "port": 1995,
+    "triggerPhrase": "Build-Hook",
+    "tls": false,
+    "repoType": "custom",
+    "chain": [
+        "cd /usr/test_server/test_hook/test && npm install",
+        "pm2 restart app.js"
+    ],
+    "github": {
+        "owner": "itachi",
+        "repository": "test",
+        "username":"pshookbot",
+        "password":"Psh00kbotftw"
+    }
+}
