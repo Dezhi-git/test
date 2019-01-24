@@ -9,7 +9,7 @@
         "pm2 restart app.js"
     ],
     "github": {
-        "owner": "itachi",
+        "owner": "Itachi",
         "repository": "test",
         "username":"pshookbot",
         "password":"Psh00kbotftw"
